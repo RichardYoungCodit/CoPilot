@@ -23,5 +23,3 @@ var server = http.createServer(function(req, res) {
     fs.createReadStream(__dirname + '/404.html').pipe(res);
   }
 });
-
-server.listen(3000, '
